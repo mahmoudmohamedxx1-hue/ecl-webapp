@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "devCommand": "npm run dev",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "@supabase-url",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase-anon-key",
+    "SUPABASE_SERVICE_ROLE_KEY": "@supabase-service-key",
+    "GROK_API_KEY": "@grok-api-key",
+    "GROK_API_URL": "https://api.x.ai/v1",
+    "INNGEST_EVENT_KEY": "@inngest-event-key",
+    "INNGEST_SIGNING_KEY": "@inngest-signing-key"
+  }
+}
